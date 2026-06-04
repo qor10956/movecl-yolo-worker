@@ -11,7 +11,6 @@ AGPL-3.0 라이선스 의무에 따라 소스코드를 공개합니다.
 |------|------|
 | `modal_mediapipe_worker.py` | Modal GPU 워커 (FastAPI) — 메인 엔드포인트 |
 | `yolo_pose_analyze.py` | YOLOv8m-pose 포즈 분석 (워커에서 임포트) |
-| `mediapipe_analyze.py` | RTMPose 분석 로직 (레거시, 현재 미사용) |
 
 ## 동작 방식
 
