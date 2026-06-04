@@ -1,8 +1,8 @@
 """
-Modal GPU worker — YOLOv8m-pose + RTMPose Hand
-골격 오버레이 영상 생성 (17 body + 21×2 hand = 59 keypoints)
+Modal GPU worker — YOLOv8m-pose (COCO 17 keypoints)
+골격 오버레이 영상 생성
 
-라이선스: YOLOv8 AGPL-3.0 (소스 공개) / RTMPose Apache 2.0
+라이선스: YOLOv8 AGPL-3.0 (소스 공개)
 
 Endpoint:
   POST <web_url>
@@ -13,7 +13,7 @@ Endpoint:
     Body: processed mp4 (H.264, iOS-compatible)
 
 Deploy:
-  cd /tmp/modal_mediapipe && modal deploy modal_mediapipe_worker.py
+  modal deploy modal_mediapipe_worker.py
 """
 import os
 import sys
